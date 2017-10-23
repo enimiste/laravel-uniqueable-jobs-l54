@@ -35,6 +35,6 @@ DoSomethingJob::dispatch('Hello from unique job ' . $u->email)
 
 The Laravel IDE Helper Generator is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
 
-[link-packagist]: https://packagist.org/packages/enimiste/laravel-uniqueable-jobs
+[link-packagist]: https://packagist.org/packages/enimiste/laravel-uniqueable-jobs-l54
 [link-author]: https://github.com/enimiste
 [link-contributors]: ../../contributors
