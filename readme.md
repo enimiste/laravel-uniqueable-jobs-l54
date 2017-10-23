@@ -16,6 +16,7 @@ Com\NickelIT\UniqueableJobs\UniqueableJobsServiceProvider::class,
 
 Publish migration : 
 ```bash
+php artisan queue:table
 php artisan vendor:publish  --tag=migrations
 ```
 
