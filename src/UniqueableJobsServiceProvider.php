@@ -20,6 +20,11 @@ class UniqueableJobsServiceProvider extends ServiceProvider
         $manager->addConnector('database', function () {
             return new DatabaseConnector($this->app['db']);
         });
+
+        $migrationsPath = __DIR__ . '/../database/migrations/2017_10_23_114820_add_uniqueable_columns_jobs.php';
+        $publishPath = base_path('/database/migrations/2017_10_23_114820_add_uniqueable_columns_jobs.php');
+
+        $this->publishes([$migrationsPath => $publishPath], 'migrations');
     }
 
     /**
