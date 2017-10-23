@@ -11,12 +11,12 @@ composer require enimiste/laravel-uniqueable-jobs
 After updating composer, add the service provider to the `providers` array in `config/app.php`
 
 ```php
-Com\NickelIT\UniqueableJobsServiceProvider::class,
+Com\NickelIT\UniqueableJobs\UniqueableJobsServiceProvider::class,
 ```
 
 Publish migration : 
 ```bash
-php artisan vendor:publish --provider=Com\NickelIT\UniqueableJobsServiceProvider
+php artisan vendor:publish --provider=Com\NickelIT\UniqueableJobs\UniqueableJobsServiceProvider
 ```
 
 In your Jobs classes use `Com\NickelIT\UniqueableJobs\Dispatchable` and `Com\NickelIT\UniqueableJobs\Uniqueable` instead of the default ones.
