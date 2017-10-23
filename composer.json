@@ -1,6 +1,6 @@
 {
-  "name": "enimiste/laravel-uniqueable-jobs",
-  "description": "Laravel uniqueable jobs support",
+  "name": "enimiste/laravel-uniqueable-jobs-l54",
+  "description": "Laravel 5.4 uniqueable jobs support",
   "type": "library",
   "license": "MIT",
   "authors": [
