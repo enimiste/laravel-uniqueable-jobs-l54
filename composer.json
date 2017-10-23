@@ -1,0 +1,21 @@
+{
+  "name": "enimiste/laravel-uniqueable-jobs",
+  "description": "Laravel uniqueable jobs support",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "NOUNI EL Bachir",
+      "email": "nouni.elbachir@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.4",
+    "laravel/framework": "5.4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Com\\NickelIT\\UniqueableJobs\\": "src"
+    }
+  }
+}
