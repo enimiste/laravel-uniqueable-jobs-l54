@@ -22,8 +22,8 @@ class UniqueableJobsServiceProvider extends ServiceProvider
         });
 
         $migrationsPath = __DIR__ . '/../database/migrations/2017_10_23_114820_add_uniqueable_columns_jobs.php';
-        $publishPath = base_path('/database/migrations/2017_10_23_114820_add_uniqueable_columns_jobs.php');
-
+        $date = date('Y_m_d_His');
+        $publishPath = base_path("/database/migrations/{$date}_add_uniqueable_columns_jobs.php");
         $this->publishes([$migrationsPath => $publishPath], 'migrations');
     }
 
