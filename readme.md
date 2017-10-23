@@ -5,7 +5,7 @@
 Require this package with composer using the following command:
 
 ```bash
-composer require enimiste/laravel-uniqueable-jobs-l54
+composer require "enimiste/laravel-uniqueable-jobs-l54:5.4.*"
 ```
 
 After updating composer, add the service provider to the `providers` array in `config/app.php`
