@@ -81,7 +81,7 @@ class PendingDispatch
     {
         $job_clazz = get_class($this->job);
         $clazz = new \ReflectionClass($job_clazz);
-        return in_array(Uniqueable::class, $clazz->getTraitNames());
+        return in_array(Uniqueable::class, $clazz->getTraitNames()) || $clazz->hasMethod('unique');
     }
 
     /**

@@ -70,6 +70,6 @@ class DatabaseQueue extends \Illuminate\Queue\DatabaseQueue
         }
         $job_clazz = get_class($job);
         $clazz = new \ReflectionClass($job_clazz);
-        return in_array(Uniqueable::class, $clazz->getTraitNames());
+        return in_array(Uniqueable::class, $clazz->getTraitNames()) || $clazz->hasMethod('unique');
     }
 }
