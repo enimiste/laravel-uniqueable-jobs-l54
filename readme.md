@@ -35,4 +35,4 @@ DoSomethingJob::dispatch('Hello from unique job ' . $u->email)
 
 ### License
 
-The Laravel 5. Uniqueable Jobs is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+The Laravel 5.4 Uniqueable Jobs is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
