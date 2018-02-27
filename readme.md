@@ -1,12 +1,18 @@
-## Laravel 5.4 Uniqueable Jobs
+## Laravel Uniqueable Jobs
 
 ### Install
 
-Require this package with composer using the following command:
+Require this package with composer using the following command :  
 
+```bash
+composer require "enimiste/laravel-uniqueable-jobs-l54:5.6.*"
+```
+
+For Laravel 5.4 :  
 ```bash
 composer require "enimiste/laravel-uniqueable-jobs-l54:5.4.*"
 ```
+
 
 After updating composer, add the service provider to the `providers` array in `config/app.php`
 
@@ -35,4 +41,4 @@ DoSomethingJob::dispatch('Hello from unique job ' . $u->email)
 
 ### License
 
-The Laravel 5.4 Uniqueable Jobs is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+The Laravel Uniqueable Jobs is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
