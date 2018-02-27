@@ -2,7 +2,7 @@
 
 ### Install
 
-Require this package with composer using the following command :  
+Require this package with composer using the following command (Laravel 5.6) :  
 
 ```bash
 composer require "enimiste/laravel-uniqueable-jobs-l54:5.6.*"
